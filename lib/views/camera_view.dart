@@ -30,7 +30,7 @@ class CameraView extends StatelessWidget {
                     viewModel.onFlashClick();
                   },
                   icon: Icon(
-                    viewModel.flashIcon ?? Icons.flash_on,
+                    viewModel.flashIcon ?? Icons.flash_off,
                     color: Colors.white,
                   )
               ),
